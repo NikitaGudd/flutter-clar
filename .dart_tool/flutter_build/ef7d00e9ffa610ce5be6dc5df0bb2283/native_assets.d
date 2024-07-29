@@ -1,0 +1,1 @@
+ /Users/nikitagudur/Downloads/workout-app-2-back-Lesson_6/cla_flutter/.dart_tool/flutter_build/ef7d00e9ffa610ce5be6dc5df0bb2283/native_assets.yaml: 
