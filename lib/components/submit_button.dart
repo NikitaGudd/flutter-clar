@@ -31,7 +31,7 @@ class SubmitButton extends StatelessWidget {
           ),
           child: const Center(
             child: Text(
-              'Submit',
+              'Sign up',
               style: TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.bold,

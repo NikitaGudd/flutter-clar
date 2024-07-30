@@ -20,12 +20,12 @@ class ValidationMessage extends StatelessWidget {
       } else if (!isValid && isSubmitted) {
         return Colors.red;
       }
-      return Colors.black;
+      return const Color.fromARGB(255, 74, 78, 113);
     }
 
     return Text(
       message,
-      style: TextStyle(color: getColor()),
+      style: TextStyle(color: getColor(), fontSize: 13),
     );
   }
 }

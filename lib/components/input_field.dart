@@ -38,7 +38,7 @@ class InputField extends StatelessWidget {
           style: TextStyle(
               color: isSubmitted
                   ? (valid ? Colors.green : Colors.red)
-                  : Colors.black),
+                  : const Color.fromARGB(255, 74, 78, 113)),
           decoration: InputDecoration(
             hintText: placeholder,
             suffixIcon: trailing,

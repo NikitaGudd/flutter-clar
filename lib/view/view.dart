@@ -136,7 +136,7 @@ class _FormValidationState extends State<FormValidation> {
                     );
                   }),
                   Padding(
-                    padding: const EdgeInsets.only(right: 60),
+                    padding: const EdgeInsets.only(right: 75),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -145,11 +145,13 @@ class _FormValidationState extends State<FormValidation> {
                           isValid: _isPasswordLengthValid,
                           isSubmitted: _isSubmitted,
                         ),
+                        const SizedBox(height: 4),
                         ValidationMessage(
                           message: 'Uppercase and lowercase letters',
                           isValid: _isPasswordUpperLowerValid,
                           isSubmitted: _isSubmitted,
                         ),
+                        const SizedBox(height: 4),
                         ValidationMessage(
                           message: 'At least one digit',
                           isValid: _isPasswordDigitValid,
@@ -158,7 +160,7 @@ class _FormValidationState extends State<FormValidation> {
                       ],
                     ),
                   ),
-                  const SizedBox(height: 20),
+                  const SizedBox(height: 40),
                   SubmitButton(
                     onPressed: _submit,
                   ),
